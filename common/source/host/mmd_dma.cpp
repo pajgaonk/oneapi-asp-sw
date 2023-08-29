@@ -12,7 +12,7 @@
 #include "mmd_device.h"
 #include "mmd_dma.h"
 
-namespace intel_opae_mmd {
+using namespace intel_opae_mmd;
 const uint64_t KB = 2 << 9;
 const uint64_t MB = 2 << 20;
 
@@ -539,4 +539,3 @@ int mmd_dma::host_to_fpga(aocl_mmd_op_t op, const void *host_addr,
   }
   return enqueue_dma(item);
 }
-}// namespace intel_opae_mmd

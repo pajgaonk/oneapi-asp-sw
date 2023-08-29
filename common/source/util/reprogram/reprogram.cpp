@@ -9,8 +9,6 @@
 #include "aocl_mmd.h"
 #include "mmd.h"
 
-bool diagnose = 0;
-
 /* given filename, load its content into memory.
  * Returns file size in file_size_out ptr and ptr to buffer (allocated
  * with malloc() by this function that contains the content of the file.*/
